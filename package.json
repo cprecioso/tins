@@ -3,14 +3,22 @@
   "version": "0.0.1",
   "private": false,
   "description": "A shortcut installer for packages and their types",
+  "homepage": "https://github.com/cprecioso/tins#readme",
+  "bugs": {
+    "url": "https://github.com/cprecioso/tins/issues"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Carlos Precioso <kalprestito@gmail.com>",
   "files": [
     "lib"
   ],
   "bin": {
     "tins": "lib/bin/tins.js",
     "tuns": "lib/bin/tuns.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cprecioso/tins.git"
   },
   "scripts": {
     "build": "npm run clean && tsc -p .",
